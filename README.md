@@ -35,3 +35,5 @@ alu: The Arithmetic Logic Unit that performs all calculations.
 imm_gen: Generates and sign-extends immediate values from instructions.
 forwarding_unit: Implements forwarding logic to pass results from later pipeline stages back to the Execute stage, preventing unnecessary stalls.
 hazard_unit: Detects load-use data hazards (which require a stall) and control hazards from branches and jumps (which require a pipeline flush).
+
+
